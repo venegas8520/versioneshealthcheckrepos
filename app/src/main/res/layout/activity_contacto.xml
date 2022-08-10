@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/container"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingLeft="16dp"
+android:paddingTop="8dp"
+android:paddingRight="16dp"
+android:paddingBottom="8dp"
+android:background="@color/white"
+tools:context=".ContactoActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Añadir contacto"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:text="Es necesario que registres mínimo dos contactos para poder continuar" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/input" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Información personal"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rellena los campos correctamente"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Ingrese el nombre completo"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-black"/>
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Ingresa el nombre completo"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:background="@drawable/input"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Ingrese el parentesco"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-black"/>
+    <EditText
+        android:id="@+id/apellidos"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Ingresa el parentesco"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:background="@drawable/input"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Ingrese el E-mail"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-black"/>
+    <EditText
+        android:id="@+id/correo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Ingresa el e-mail"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:background="@drawable/input"
+        android:inputType="textEmailAddress"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Ingrese el número telefónico"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-black"/>
+    <EditText
+        android:id="@+id/passwprd"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="+52"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:background="@drawable/input"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/singUp"
+        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:textSize="20dp"
+        android:text="Registrar contacto"
+        android:textAlignment="center"
+        android:background="@drawable/btn_round_main"
+        android:textColor="@color/white"
+        android:onClick="saveContacto"
+        />
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

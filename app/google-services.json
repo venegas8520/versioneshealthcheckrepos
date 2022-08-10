@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "790139327949",
+    "project_id": "healthcheck-cd805",
+    "storage_bucket": "healthcheck-cd805.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790139327949:android:6944f1a3934bba19142084",
+        "android_client_info": {
+          "package_name": "com.example.health"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790139327949-i9or3tm4bn9jjm35h15aj9j2s6c5gs6k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.health",
+            "certificate_hash": "4dc24550f7dcfd6db0bdd8e291a1abc2e3982a3e"
+          }
+        },
+        {
+          "client_id": "790139327949-887nt47ji19jjaur4j88t45d3ouubb7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfAv494iJ_Etr_5V6eFob3bdakXMJT8Rk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "790139327949-887nt47ji19jjaur4j88t45d3ouubb7e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
